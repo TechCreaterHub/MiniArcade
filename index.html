@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Arcade</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎮 Mini Arcade</h1>
+    <p>Select a game to play:</p>
+    <div class="games-grid">
+      <div class="game-card" onclick="openGame('tic tac toe')">
+        <h2>Tic Tac Toe</h2>
+        <p>Classic X vs O battle</p>
+      </div>
+      <div class="game-card" onclick="openGame('snake')">
+        <h2>Snake Game</h2>
+        <p>Eat, grow, and survive</p>
+      </div>
+      <div class="game-card" onclick="openGame('memory-match')">
+        <h2>Memory Match</h2>
+        <p>Test your memory power</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
